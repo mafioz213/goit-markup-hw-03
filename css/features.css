@@ -1,13 +1,22 @@
+.features-list {
+  display: flex;
+  gap: 24px;
+}
+
+.features-item {
+  width: calc((1128px - 3 * 24px) / 4);
+}
 
 .features-item-title {
-  color: #2e2f42;
+  margin-bottom: 8px;
+  color: var(--color-navy-blue);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
 }
 
 .features-item-text {
-  color: #434455;
+  color: var(--color-slate);
   font-size: 16px;
   line-height: 1.5;
 }

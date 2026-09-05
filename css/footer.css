@@ -1,19 +1,22 @@
+.footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: var(--color-navy-blue);
+}
+
 .footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
-}
-.footer {
-  background-color: #2e2f42;
+  color: var(--color-cloud);
 }
 
 .footer-text {
-  color: #f4f4fd;
-}
-.logo-part-accent {
-  color: #4d5ae5;
+  max-width: 264px;
+  color: var(--color-cloud);
 }
