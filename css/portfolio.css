@@ -39,3 +39,6 @@
   font-size: 16px;
   line-height: 1.5;
 }
+.portfolio-item {
+  width: 360px;
+}
